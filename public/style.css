@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic ;
+}
+
+header{
+    background-image: url("https://timelinecovers.pro/facebook-cover/download/abstract_blue_and_black_pixels-facebook-cover.jpg");
+    height: 8vh;
+background-size: cover;
+background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 15px;
+
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+background-color: #fff;
+color:black;
+margin-left: 30px;
+}
+.logo img{
+    float: left;
+    width: 50px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.title h1{
+    color: rgb(241, 184, 28);
+    font-size: 70px;
+}
+
+.hotel-container{
+    width: 60%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden;
+    position: relative;
+    
+}
+.hotel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+#prevBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color:#fff;
+    cursor: pointer;
+}
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color:#fff;
+    cursor: pointer;
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.btn{
+    background-color: rgb(84, 85, 15);
+    padding: 10px 30px;
+    color: rgb(246, 246, 246);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.6s ease;
+    
+}
+.btn:hover{
+    background-color: rgb(219, 155, 36);
+    color:rgb(240, 232, 232);  
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.Card{
+    width: 20rem;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.Card:hover{
+    box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253)!important;
+}
+
+.Card-body {
+    padding: 3rem 0 !important;
+}
+
+.Card p {
+    font-size: .9rem ;
+    padding: 0.4rem.9rem;
+}
+.Card img{
+    height: 13rem;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+
+
+
+#contact {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+    margin-top: 150px;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 50%;
+}
+
+#contact form > button {
+    align-self: center;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+#contact form > button:hover {
+    color: white;
+    background-color: black;
+}
+
+footer {
+    text-align: center;
+    background-image: url("https://timelinecovers.pro/facebook-cover/download/abstract_blue_and_black_pixels-facebook-cover.jpg");
+    background-color: black;
+    color: gold;
+    padding: 15px; 
+}
+
+.block{
+    
+    justify-content: space-around;
+}
+button{
+    background-color: gold; 
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #c3761e;
+    color: white;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.Card h1  {
+    text-align: center;
+   color: rgb(19, 19, 77);
+}
+
+.Card h2  {
+    text-align: center;
+    font-size: medium;
+    color: red;
+}
